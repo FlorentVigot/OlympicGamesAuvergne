@@ -6,12 +6,8 @@
 body {
     font-family: "Trebuchet MS";
     text-align: center;
-    overflow: hidden;
-    
     justify-content: center;
     align-items: center;
-    background-position: center;
-    background-size: cover;
   }
 .app{
     display: flex;
@@ -42,3 +38,32 @@ body {
     top: -50px;
     opacity: 1;
   }
+
+  
+  /* Table */
+  table{
+    margin: auto;
+  }
+.table{
+  
+  box-shadow: 0 5px 5px black;
+  border: 2px grey;
+  background-color: grey;
+}
+thead tr{
+  color: grey;
+}
+th, td{
+  padding:15px 20px;
+}
+
+/* footer */
+footer{
+  background-color: black;
+  height: 100px;
+  margin-top: 20px;
+}
+h4{
+  color: white;
+  text-align: center;
+}
