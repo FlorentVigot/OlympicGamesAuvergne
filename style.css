@@ -1,23 +1,28 @@
 *{
     margin: 0;
     padding: 0;
-    background-color:beige;
+    
 }
 body {
     font-family: "Trebuchet MS";
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color:beige;
   }
 .app{
     display: flex;
 }
-  h1 {
-    font-size: 3em;
-    position: relative;
-  }
+h1 {
+  font-size:2em;
+  position: relative;
+}
+h2{
+  font-size: 16px;
+  color: #8F76A8;
+}
   i.wi {
-    font-size: 5em;
+    font-size: 3em;
     line-height: 3em;
   }
   
